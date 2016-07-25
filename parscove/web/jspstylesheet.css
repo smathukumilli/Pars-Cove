@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2016, 6:32:31 PM
+    Author     : shanmukh
+*/
+
+.menu {
+     
+
+    padding: 15px;
+ position:  fixed;
+    right: 700px;
+    left: 270px;
+    width: 700px;    
+  height: 600px;
+  overflow-y: scroll;
+ 
+ 
+     
+}
+
+  .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+ body {
+            background-color: ghostwhite;
+            
+         }
+         
+         .image { 
+   position: absolute; 
+   top:0px;
+   width: 160%; /* for IE 6 */
+}
+.navbar-float{
+    position: fixed;
+    margin-left: 150px;
+}
+a:hover{
+    background: #5b4282;
+    color: white;
+    font-style: normal;
+    
+}
+a{
+   color: red;
+   font-size: large; 
+}
+/*.td{
+    color: #00ffff;
+}*/
+/* latin */
+.fontface {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'), url(http://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaIgp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+
+}
+
+.h1{
+    top:15px;
+    color: red;
+}
+.border{
+    bottom: 15px ;
+}
+.coltext{
+    color: white;
+/*   border-bottom:solid 2px  purple;*/
+  
+}
+.backcol{
+    background-color: #5b4282;
+     
+}

@@ -1,0 +1,70 @@
+<html>
+   <head>
+         <title>Welcome to Parscove</title>
+         <link href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel = "stylesheet">
+        <style>
+ body {
+            background-color: ghostwhite;
+         }
+
+
+h2 {
+   position:  absolute;
+   top: 900px; 
+   left: 0; 
+   width: 100%; 
+}
+        
+
+</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+   </head>
+<body>
+
+           
+    <nav class = "jumbotron" role = "navigation">
+   
+   <div class = "nav-main ">
+      <a class = "navbar-brand" href = "#">Parscove</a>
+   </div>
+  <nav class = "nav navbar-right">
+  <div class = "navbar-header">
+      <a class = "navbar-brand"href = "test.html">Home</a>
+         <a class = "navbar-brand" href = "saladinfo.jsp">Salads</a>
+         <a class = "navbar-brand" href = "entrees.html">Entrees</a>
+         <a class = "navbar-brand" href = "appetizerinfo.jsp">Appetizers</a>
+         <a class = "navbar-brand" href = "spiritsinfo.jsp">spirits</a>
+                  <a class = "navbar-brand" href = "specialsinfo.jsp">specials</a>
+         </div>
+        </nav>
+    </nav>
+
+
+
+
+<div class="container">
+  <h2>Image</h2>
+  <img src="img_lights.jpg" class="img-circle" alt="Cinque Terre" width="180" height="180">
+</div>
+    </body>
+</html> 
